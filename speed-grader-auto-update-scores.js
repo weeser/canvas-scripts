@@ -5,7 +5,7 @@ function update_scores (e){
 }
 
 // Select the node that will be observed for mutations
-const target = document.getElementsByTagName('body');
+const target = document.getElementsByTagName('body')[0];
 
 // Options for the observer (which mutations to observe)
 const config = { attributes: true, childList: true, subtree: true };
